@@ -1,5 +1,4 @@
 import { FiGithub, FiLinkedin, FiInstagram } from 'react-icons/fi'
-import svg from '../divider.svg'
 const Connect = () => {
     return (
         <div className="w-full md:h-[20%] h-max flex flex-col justify-evenly align-center md:grid md:grid-row-1 md:grid-cols-10  mt-10 custom-font">
@@ -10,9 +9,9 @@ const Connect = () => {
 
 
             <div className="w-full h-full flex-wrap md:col-span-3 md:pl-12 flex justify-evenly md:flex-col items-start sm:justify-evenly">
-                <a href='https://www.linkedin.com/in/paritosh-jha-48693022b/' target='_blank' rel="norefferer"><FiLinkedin size={32} className=" hover:scale-[105%] transition duration-300 ease-in-out" /></a>
-                <a href='https://github.com/itspkjha' target='_blank' rel='norefferer'><FiGithub size={32} className=" hover:scale-[105%] transition duration-300 ease-in-out" /></a>
-                <a href='https://www.instagram.com/_paritosh.jha_/' target='_blank' rel='norefferer'><FiInstagram size={32} className=" hover:scale-[105%] transition duration-300 ease-in-out" /></a>
+                <a href='https://www.linkedin.com/in/paritosh-jha-48693022b/' target='_blank' rel="noreferrer"><FiLinkedin size={32} className=" hover:scale-[105%] transition duration-300 ease-in-out" /></a>
+                <a href='https://github.com/itspkjha' target='_blank' rel="noreferrer"><FiGithub size={32} className=" hover:scale-[105%] transition duration-300 ease-in-out" /></a>
+                <a href='https://www.instagram.com/_paritosh.jha_/' target='_blank' rel="noreferrer"><FiInstagram size={32} className=" hover:scale-[105%] transition duration-300 ease-in-out" /></a>
             </div>
 
             {/* <div className="-rotate-90 sm:rotate-0 bg-black  sm:h-[25%]  lg:h-[50%] sm:w-16 md:col-span-2 flex"> */}

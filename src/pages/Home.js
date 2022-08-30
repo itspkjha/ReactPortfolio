@@ -4,7 +4,6 @@ import MyIntro from "../components/MyIntro";
 import Connect from "../components/Connect";
 import { useCallback } from "react";
 import Particles from "react-particles";
-import { Engine } from "tsparticles-engine";
 import { loadFull } from "tsparticles";
 
 function ParticlesContainer() {
@@ -12,7 +11,7 @@ function ParticlesContainer() {
     const customInit = useCallback(async (engine) => {
         // this adds the bundle to tsParticles
         await loadFull(engine);
-    });
+    },[]);
 
     const options = {
         /* custom options */
@@ -131,7 +130,7 @@ function ParticlesContainer() {
 
 const Home = () => {
     return (
-        <div className=" w-full h-screen">
+        <div className=" w-full h-screen px-5">
 
 
             <Navbar />
