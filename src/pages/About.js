@@ -1,4 +1,3 @@
-import React from "react";
 import { IoIosCloseCircleOutline } from 'react-icons/io'
 import { useNavigate } from "react-router-dom";
 const About = () => {

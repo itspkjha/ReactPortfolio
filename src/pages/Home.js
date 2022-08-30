@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 import MyName from "../components/MyName";
 import MyIntro from "../components/MyIntro";
 import Connect from "../components/Connect";
-import React, { useCallback } from "react";
+import { useCallback } from "react";
 import Particles from "react-particles";
 import { Engine } from "tsparticles-engine";
 import { loadFull } from "tsparticles";

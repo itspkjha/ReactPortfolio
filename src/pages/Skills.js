@@ -1,4 +1,3 @@
-import React from "react";
 import { IoIosCloseCircleOutline } from 'react-icons/io'
 import { useNavigate } from "react-router-dom";
 const Pills = ({ label }) => {
@@ -10,7 +9,6 @@ const Skills = () => {
     const navigate = useNavigate();
     return (
         <div className="w-full h-screen flex justify-center items-center">
-
             <div className="w-[60%] h-[70%] relative">
                 <span className="z-30 w-full absolute mt-4 font-bold text-center h-20">~Skills.md - Portfolio - Paritosh Kumar Jha</span>
                 <span className="w-full h-full absolute top-0 z-10 bg-white border-2 border-black custom-font p-7 flex justify-center items-start flex-row rounded-sm">

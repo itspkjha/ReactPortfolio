@@ -1,10 +1,9 @@
-import React from "react";
 import Button from "./Button";
 import '../index.css'
 import { Link } from "react-router-dom";
 const Navbar = () => {
     return (
-        <div className="w-full h-20 pt-4 grid grid-rows-1 grid-cols-10 custom-font">
+        <div className="w-full h-20 pt-4 grid grid-rows-1 grid-cols-10 custom-font sm:mt-50">
             <div className="col-span-1">
             </div>
 
@@ -18,9 +17,9 @@ const Navbar = () => {
             <div className="col-span-2">
             </div>
 
-            <div className="col-span-2 w-full h-full flex items-center justify-center   ">
+            <div className="col-span-2 w-full h-full flex items-center justify-center">
                 {/* logo will go here */}
-                <img src={require('../logo.png')} className="w-1/4 aspect-square rounded-full" alt="avatarOp" />
+                <img src={require('../logo.png')} className=" sm:w-1/4 aspect-square rounded-full" alt="avatarOp" />
             </div>
 
             <div className="col-span-2">
